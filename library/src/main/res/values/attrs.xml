@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="NumberAddView">
+        <attr name="textColor" format="color"></attr>
+        <attr name="textSize" format="dimension"></attr>
+        <attr name="animDuration" format="integer"></attr>
+        <attr name="moveSize">
+            <enum name="large" value="0"></enum>
+            <enum name="small" value="1"></enum>
+        </attr>
+        <attr name="maxTextLength" format="integer"></attr>
+    </declare-styleable>
+
+</resources>
